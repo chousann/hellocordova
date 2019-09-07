@@ -9,5 +9,20 @@
   },
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "PluginDemoToast": "file:plugins/PluginDemoToast",
+    "cordova-android": "7.1.4",
+    "cordova-plugin-plugindemo-toast": "plugins/PluginDemoToast",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-plugindemo-toast": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
 }
