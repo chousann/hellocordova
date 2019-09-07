@@ -47,5 +47,5 @@ app.initialize();
 document.getElementById("btn").addEventListener("click",show);
 
 function show() {
-    PluginDemoToast.coolMethod("this is Toast");
+    PluginDemoToast.coolMethod({message: "this is Toast",position: "center"});
 }
